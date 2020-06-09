@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './style.css';
 
 interface Theme {
@@ -26,7 +26,7 @@ const ThemeSwitch = () => {
     secondaryText: 'hsl(228, 34%, 66%)',
   };
 
-  const [currentTheme, setCurrentTheme] = useState<Theme>(lightTheme);
+  const [currentTheme, setCurrentTheme] = useState<Theme>(darkTheme);
 
   function updateDOMTheme(html: HTMLHtmlElement, theme: Object): void {
     Object.keys(theme).map((element) => {
@@ -45,10 +45,6 @@ const ThemeSwitch = () => {
     setCurrentTheme(objectsCompare(currentTheme, lightTheme) ? darkTheme : lightTheme);
   }
 
-  useEffect(() => {
-    changeTheme();
-  }, []);
-
   return (
     <button
       type='button'
@@ -58,7 +54,7 @@ const ThemeSwitch = () => {
       <div
         className='switch'
         style={{
-          transform: objectsCompare(currentTheme, lightTheme) ? 'translateX(125%)' : 'translateX(10%)',
+          transform: objectsCompare(currentTheme, lightTheme) ? 'translateX(100%)' : 'translateX(0%)',
         }}
       />
     </button>

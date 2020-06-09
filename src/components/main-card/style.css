@@ -52,3 +52,9 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+@media(max-width: 480px) {
+  div.main-card {
+    margin-bottom: 25px;
+  }
+}

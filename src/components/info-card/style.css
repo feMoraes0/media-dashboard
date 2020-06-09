@@ -35,3 +35,9 @@ div.info-card div.info-card-section p.increased {
   flex-direction: row;
   align-items: center;
 }
+
+@media(max-width: 480px) {
+  div.info-card {
+    margin-bottom: 25px;
+  }
+}
