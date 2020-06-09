@@ -50,8 +50,9 @@ const ThemeSwitch = () => {
       type='button'
       className='switcher'
       onClick={changeTheme}
+      title='toogle switcher'
     >
-      <div
+      <span
         className='switch'
         style={{
           transform: objectsCompare(currentTheme, lightTheme) ? 'translateX(100%)' : 'translateX(0%)',

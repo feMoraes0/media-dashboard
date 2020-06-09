@@ -12,7 +12,7 @@ button.switcher {
 button:focus {
   outline: none;
 }
-button.switcher div.switch {
+button.switcher span.switch {
   height: 20px;
   width: 20px;
   background-color: var(--mainBgColor);

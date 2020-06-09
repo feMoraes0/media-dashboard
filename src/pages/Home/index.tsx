@@ -52,7 +52,7 @@ const Home = () => (
           borderColor='hsl(348, 97%, 39%)'
         />
       </section>
-      <p className='section-title'>Overview - Today</p>
+      <h2 className='section-title'>Overview - Today</h2>
       <section className='cards-grid'>
         <InfoCard
           title='Page Views'

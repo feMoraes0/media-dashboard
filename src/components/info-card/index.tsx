@@ -20,9 +20,18 @@ const InfoCard: React.FC<InfoCardProps> = ({
     </div>
     <div className='info-card-section' style={{ alignItems: 'flex-end' }}>
       <p className='total'>{total}</p>
-      <p className='increased' style={{ color: (increased) ? 'hsl(163, 72%, 41%)' : 'hsl(356, 69%, 56%)' }}>
+      <p
+        className='increased'
+        style={{
+          color: (increased) ? 'hsl(163, 72%, 41%)' : 'hsl(356, 69%, 56%)',
+        }}
+      >
         {' '}
-        {(increased) ? <BsCaretUpFill size={18} /> : <BsCaretDownFill size={18} />}
+        {
+          (increased)
+            ? <BsCaretUpFill height={18} width={18} />
+            : <BsCaretDownFill height={18} width={18} />
+        }
         {' '}
         {porcentage}
         %

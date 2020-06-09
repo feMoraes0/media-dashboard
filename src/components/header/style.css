@@ -6,12 +6,12 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-header div:first-child p:first-child {
+header div:first-child h2 {
   color: var(--mainText);
   font-size: 26px;
   font-weight: 700;
 }
-header div:first-child p:last-child {
+header div:first-child h4 {
   color: var(--secondaryText);
   font-size: 15px;
   font-weight: 700;
