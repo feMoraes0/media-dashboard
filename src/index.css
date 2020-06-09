@@ -5,6 +5,13 @@
   --mainText: hsl(230, 17%, 14%);
   --secondaryText: hsl(228, 34%, 66%);
 }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  transition: background-color 1s, color 1s;
+}
 
 html {
   height: 100vh;
@@ -13,11 +20,4 @@ html {
   background: linear-gradient(var(--secondaryBgColor) 30%, var(--mainBgColor) 0%);
   overflow-y: scroll;
   overflow-x: hidden;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  box-sizing: border-box;
 }
