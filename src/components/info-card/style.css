@@ -1,0 +1,34 @@
+div.info-card {
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+div.info-card div.info-card-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.info-card div.info-card-section p.title {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(228, 34%, 66%)
+}
+
+div.info-card div.info-card-section p.total {
+  font-size: 37px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+div.info-card div.info-card-section p.increased {
+  font-size: 14px;
+  color: hsl(163, 72%, 41%);
+  font-weight: 700;
+}

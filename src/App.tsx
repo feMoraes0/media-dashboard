@@ -7,12 +7,13 @@ import instagram from './assets/icon-instagram.svg';
 import twitter from './assets/icon-twitter.svg';
 import youtube from './assets/icon-youtube.svg';
 import MainCard from './components/main-cards';
+import InfoCard from './components/info-card';
 
 const App = () => (
   <div className='app'>
     <Header />
     <main>
-      <section className='main-cards'>
+      <section className='cards-grid'>
         <MainCard
           imageTitle={facebook}
           textTitle='@nathanf'
@@ -44,6 +45,57 @@ const App = () => (
           textCounter='subscribers'
           footerText='144 today'
           borderColor='hsl(348, 97%, 39%)'
+        />
+      </section>
+      <p className='section-title'>Overview - Today</p>
+      <section className='cards-grid'>
+        <InfoCard
+          title='Page Views'
+          logo={facebook}
+          total='87'
+          increased='3%'
+        />
+        <InfoCard
+          title='Likes'
+          logo={facebook}
+          total='52'
+          increased='2%'
+        />
+        <InfoCard
+          title='Likes'
+          logo={instagram}
+          total='5462'
+          increased='2257%'
+        />
+        <InfoCard
+          title='Profile Views'
+          logo={instagram}
+          total='52k'
+          increased='1375%'
+        />
+        <InfoCard
+          title='Retweets'
+          logo={twitter}
+          total='117'
+          increased='303%'
+        />
+        <InfoCard
+          title='Likes'
+          logo={twitter}
+          total='507'
+          increased='553%'
+        />
+        <InfoCard
+          title='Likes'
+          logo={youtube}
+          total='107'
+          increased='19%'
+        />
+        <InfoCard
+          title='Total Views'
+          logo={youtube}
+          total='1407'
+          increased='12%'
         />
       </section>
     </main>
