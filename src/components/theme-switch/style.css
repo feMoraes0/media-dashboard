@@ -1,0 +1,18 @@
+button.switcher {
+  background: linear-gradient(to left,hsl(146, 68%, 55%), hsl(210, 78%, 56%));
+  width: 50px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+button.switcher div.switch {
+  height: 17.5px;
+  width: 17.5px;
+  background-color: var(--mainBgColor);
+  border-radius: 50px;
+}

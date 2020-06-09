@@ -7,12 +7,12 @@ header {
   justify-content: space-between;
 }
 header div:first-child p:first-child {
-  color: #FFF;
+  color: var(--mainText);
   font-size: 30px;
   font-weight: 700;
 }
 header div:first-child p:last-child {
-  color: hsl(228, 34%, 66%);
+  color: var(--secondaryText);
   font-size: 15px;
   font-weight: 700;
 }
@@ -23,21 +23,8 @@ header div.switcher-box {
   align-items: center;
 }
 header div.switcher-box p.switcher-label {
-  color: #FFF;
+  color: var(--mainText);
   font-size: 16px;
   font-weight: 700;
   margin-right: 15px;
-}
-header div.switcher-box div.switcher {
-  background: linear-gradient(to left,hsl(146, 68%, 55%), hsl(210, 78%, 56%));
-  width: 50px;
-  height: 25px;
-  padding: 2.5px;
-  border-radius: 50px;
-}
-header div.switcher-box div.switch {
-  height: 20px;
-  width: 20px;
-  background-color: hsl(230, 17%, 14%);
-  border-radius: 50px;
 }

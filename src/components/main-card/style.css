@@ -7,7 +7,7 @@
   width: 100%;
   height: 100%;
   padding: 30px 0px;
-  background-color: hsl(228, 28%, 20%);
+  background-color: var(--cardBg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@
   justify-content: center;
 }
 .main-card-body .title p {
-  color: hsl(228, 34%, 66%);
+  color: var(--secondaryText);
   font-size: 14px;
   font-weight: 700;
   margin-left: 10px;
@@ -36,14 +36,14 @@
 .main-card-body .data p:first-child {
   font-size: 55px;
   font-weight: 700;
-  color: #FFF;
+  color: var(--mainText);
 }
 .main-card-body .data p:last-child {
   font-size: 14px;
   letter-spacing: 4px;
   font-weight: 400;
   text-transform: uppercase;
-  color: hsl(228, 34%, 66%);
+  color: var(--secondaryText);
 }
 .main-card-body .footer p {
   display: flex;

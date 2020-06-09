@@ -1,8 +1,16 @@
+:root {
+  --mainBgColor: hsl(0, 0%, 100%);
+  --secondaryBgColor: hsl(225, 100%, 98%);
+  --cardBg: hsl(227, 47%, 96%);
+  --mainText: hsl(230, 17%, 14%);
+  --secondaryText: hsl(228, 34%, 66%);
+}
+
 html {
   height: 100vh;
   width: 100vw;
   padding: 0 11vw;
-  background: linear-gradient(hsl(232, 19%, 15%) 30%, hsl(230, 17%, 14%) 0%);
+  background: linear-gradient(var(--secondaryBgColor) 30%, var(--mainBgColor) 0%);
   overflow-y: scroll;
   overflow-x: hidden;
 }

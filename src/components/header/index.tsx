@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import ThemeSwitch from '../theme-switch';
 
 const Header = () => (
   <header>
@@ -9,9 +10,7 @@ const Header = () => (
     </div>
     <div className='switcher-box'>
       <p className='switcher-label'>Dark mode</p>
-      <div className='switcher'>
-        <div className='switch' />
-      </div>
+      <ThemeSwitch />
     </div>
   </header>
 );

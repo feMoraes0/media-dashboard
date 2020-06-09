@@ -1,11 +1,12 @@
 div.info-card {
-  background-color: hsl(228, 28%, 20%);
+  background-color: var(--cardBg);
   border-radius: 5px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 150px;
+  width: 100%;
 }
 
 div.info-card div.info-card-section {
@@ -18,13 +19,13 @@ div.info-card div.info-card-section {
 div.info-card div.info-card-section p.title {
   font-size: 14px;
   font-weight: 700;
-  color: hsl(228, 34%, 66%)
+  color: var(--secondaryText);
 }
 
 div.info-card div.info-card-section p.total {
   font-size: 37px;
   font-weight: 700;
-  color: #FFF;
+  color: var(--mainText);
 }
 
 div.info-card div.info-card-section p.increased {
