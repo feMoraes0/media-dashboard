@@ -1,15 +1,16 @@
 import React from 'react';
-import './App.css';
-import Header from './components/header';
+import './style.css';
 
-import facebook from './assets/icon-facebook.svg';
-import instagram from './assets/icon-instagram.svg';
-import twitter from './assets/icon-twitter.svg';
-import youtube from './assets/icon-youtube.svg';
-import MainCard from './components/main-cards';
-import InfoCard from './components/info-card';
+import Header from '../../components/header';
+import MainCard from '../../components/main-card';
+import InfoCard from '../../components/info-card';
 
-const App = () => (
+import facebook from '../../assets/icon-facebook.svg';
+import instagram from '../../assets/icon-instagram.svg';
+import twitter from '../../assets/icon-twitter.svg';
+import youtube from '../../assets/icon-youtube.svg';
+
+const Home = () => (
   <div className='app'>
     <Header />
     <main>
@@ -114,4 +115,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default Home;

@@ -1,4 +1,4 @@
-.app {
+div.app {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@ section.cards-grid {
   margin-bottom: 45px;
 }
 
-.section-title {
+p.section-title {
   margin-bottom: 20px;
   color: #FFF;
   font-size: 25px;
