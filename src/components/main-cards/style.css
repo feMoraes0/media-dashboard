@@ -46,7 +46,9 @@
   color: hsl(228, 34%, 66%);
 }
 .main-card-body .footer p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-size: 14px;
-  color: hsl(163, 72%, 41%);
   font-weight: 700;
 }

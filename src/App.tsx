@@ -20,6 +20,7 @@ const App = () => (
           counter='1987'
           textCounter='followers'
           footerText='12 today'
+          increased
           borderColor='hsl(208, 92%, 53%)'
         />
         <MainCard
@@ -28,6 +29,7 @@ const App = () => (
           counter='1044'
           textCounter='followers'
           footerText='99 today'
+          increased
           borderColor='hsl(203, 89%, 53%)'
         />
         <MainCard
@@ -36,6 +38,7 @@ const App = () => (
           counter='11k'
           textCounter='followers'
           footerText='1099 today'
+          increased
           borderColor='linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))'
         />
         <MainCard
@@ -44,6 +47,7 @@ const App = () => (
           counter='8239'
           textCounter='subscribers'
           footerText='144 today'
+          increased={false}
           borderColor='hsl(348, 97%, 39%)'
         />
       </section>
@@ -53,49 +57,57 @@ const App = () => (
           title='Page Views'
           logo={facebook}
           total='87'
-          increased='3%'
+          increased
+          porcentage={3}
         />
         <InfoCard
           title='Likes'
           logo={facebook}
           total='52'
-          increased='2%'
+          increased={false}
+          porcentage={2}
         />
         <InfoCard
           title='Likes'
           logo={instagram}
           total='5462'
-          increased='2257%'
+          increased
+          porcentage={2257}
         />
         <InfoCard
           title='Profile Views'
           logo={instagram}
           total='52k'
-          increased='1375%'
+          increased
+          porcentage={1375}
         />
         <InfoCard
           title='Retweets'
           logo={twitter}
           total='117'
-          increased='303%'
+          increased
+          porcentage={303}
         />
         <InfoCard
           title='Likes'
           logo={twitter}
           total='507'
-          increased='553%'
+          increased
+          porcentage={553}
         />
         <InfoCard
           title='Likes'
           logo={youtube}
           total='107'
-          increased='19%'
+          increased={false}
+          porcentage={19}
         />
         <InfoCard
           title='Total Views'
           logo={youtube}
           total='1407'
-          increased='12%'
+          increased={false}
+          porcentage={12}
         />
       </section>
     </main>
